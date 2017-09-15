@@ -15,17 +15,19 @@
 
 using namespace std;
  
-// Insert your function here
+/*this method adds 1 to the variable var*/
 void increment(int &var)
 {
     var++;
    
 }
+/*this method adds the number in the expression variable to the var variable*/
 void increment(int &var, int expression)
 {
     var = var + expression;
     
 }
+/*this main method calls both increment methods*/
 int main(void) {
 int var = 0;
 
